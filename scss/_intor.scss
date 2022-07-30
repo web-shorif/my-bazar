@@ -1,0 +1,36 @@
+.maan-intor-area{
+    display: block;
+    overflow: hidden;
+    padding-bottom: 90px;
+}
+.intor-title{ 
+    display: block;
+    .intor-heading{
+        max-width: 420px;
+        margin: 0 auto;
+    }
+    .intor-paragraph{
+        display: block;
+        margin: 0 auto;
+    }
+}
+.intor-item{
+    margin-top: 5rem;
+    .intor-img{
+        display: block;
+        height: 70px;
+        width: 75px; 
+        margin: 0 auto;
+    }
+    .intor-item-heading{
+        font-family: 'Inter'; 
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 26px; 
+        color: #0C1928;
+        margin: 25px auto 13px; 
+    }
+    .intor-item-paragraph{
+        max-width: 417px;
+    }
+}

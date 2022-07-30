@@ -1,0 +1,66 @@
+.maan-testimonial-area{
+    display: block; 
+    padding-bottom: 90px;
+}
+.testimonial-title{
+    margin-bottom: 50px;
+}
+.testimonial-heading{
+    max-width: 515px;
+    margin: 0 auto;
+} 
+.testimonial-item{
+    padding: 57px 30px 14px;
+    background: rgba(12, 25, 40, 0.05);
+    border-radius: 20px;
+    position: relative;
+    margin-top: 35px;
+}
+.testimonial-img-one{
+    display: block;
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 50%;
+    position: absolute;
+    left: 35px;
+    top: -35px;
+    z-index: 9;
+}
+.testimonial-item-para{
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #0C1928; 
+    opacity: 0.8;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.2);
+}
+
+.testimonial-link{
+    font-family: 'Inter'; 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #0C1928;
+    letter-spacing: 0.02em;
+    text-transform: capitalize; 
+    display:block;
+    margin-top: 13px; 
+    transition: .3s;
+    position: relative;
+    &::after{
+        content: "" ;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: block;
+        width: 32px;
+        height: 24px;
+        background: url(../img/shap-img/testimonial-img-two.svg);
+        background-repeat: no-repeat;
+    }
+    &:hover{ 
+        color: #154577;
+    }
+}

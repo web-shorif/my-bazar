@@ -1,0 +1,46 @@
+.maan-transaction-area{
+    display: block;
+    overflow: hidden;
+    padding: 90px 0;
+    background: rgba(12, 25, 40, 0.03);
+}
+.transaction-text-item{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    .transaction-heading{
+        max-width: 355px;
+        display: block;
+    }
+    .transactionfact-paragraph{
+        margin-bottom: 1rem;
+        max-width: 522px;
+    }
+    .transactionfact-paragraph-second{
+        margin-bottom: 28px;
+        max-width: 522px;
+        display: block;
+    }
+    .transaction-btn{
+        padding: 15px 34px;
+        line-height: 19px;
+    }
+}
+.transaction-img-item{
+    .transaction-img{
+        display: block; 
+        width: 660px;
+        max-width: 100%;
+    }
+}
+.transaction-report-one{
+    margin-bottom: 90px; 
+}
+.transaction-report-two{
+    .transaction-text-item {
+        display: flex;
+       justify-content: flex-end; 
+       align-items: center;
+    }
+}

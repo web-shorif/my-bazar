@@ -1,0 +1,129 @@
+.maan-fun-fact-area{
+    padding-bottom: 90px;
+    display: block;
+    overflow: hidden;
+}
+.fun-fact-img-item{
+    position: relative;
+    .fast-fun-fact-img{
+        display: block;
+        max-width: 100%;
+        width: 700px;
+        height: 450px;
+    }
+    .fun-fact-order{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        height: 90px;
+        width: 220px;
+        background: #FFF;
+        border-radius: 10px;
+        padding: 15px;
+        .total-order{ 
+            .total-order-paragraph{
+                font-family: 'Inter'; 
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;  
+                color: #0C1928; 
+                opacity: 0.7;
+                text-transform: capitalize;
+                padding-bottom: 1rem;
+            }
+            .fact-point{
+                font-family: 'Inter'; 
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 30px;  
+                color: #0C1928; 
+                .fact-parsent{
+                    font-family: 'Inter'; 
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px; 
+                    color: #15CD75; 
+                }
+            }
+        }
+        .total-order-img{
+            .fact-count{
+                width: 60px;
+                height: 50px;
+                display: block;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.fun-fact-tt-item{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.fun-fact-text-item{ 
+    .funfact-title{
+        margin-bottom: 3rem;
+        .fun-fact-heading{
+            max-width: 521px;
+        }
+        .fun-fact-paragraph{
+            max-width:521px;
+        }
+    }
+    .fun-fact-counter{
+        display: flex;
+        text-align: center; 
+        align-items: center;  
+        .funfact-text{ 
+            padding: 1rem 2.5rem 1.8rem; 
+            border-radius: 15px;
+            margin-right: 2.5rem;
+            .counter{
+                font-family: 'Inter'; 
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 73px; 
+                color: #0C1928; 
+                transition: 0.3s;
+            }
+            .counter-ples{
+                font-family: 'Inter'; 
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 73px; 
+                color: #0C1928;
+                transition: 0.3s;
+            }
+            .counter-paragraph{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center; 
+                color: #0C1928; 
+                opacity: 0.7;
+                max-width: 111px;
+                transition: 0.3s;
+            }
+            &:hover{ 
+                background: linear-gradient(180deg, #FFB628 0%, #F6851F 100%);
+                border-radius: 15px;
+                .counter{  
+                    color: #fff;  
+                }
+                .counter-ples{  
+                    color: #fff;
+                }
+                .counter-paragraph{ 
+                    color: #fff;  
+                    opacity: 1;
+                } 
+            }
+        } 
+    }
+}

@@ -1,0 +1,50 @@
+.maan-customers-area{
+    display: block;
+    overflow: hidden;
+    padding-bottom: 90px;
+}
+.customers-title{
+    margin-bottom: 50px;
+    .customers-heading{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .customers-paragraph{
+        max-width: 650px;
+        margin: 0 auto;
+    }
+}
+.customers-wrap{  
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+} 
+.customer-item{  
+    height: 370px;
+    width: 300px;
+    max-width: 100%;
+    border-radius: 15px;
+    background: url(../img/customers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: 2s; 
+    margin: 0 2rem;
+    &:hover{
+        background-position: bottom;
+        cursor: pointer;
+    }
+} 
+.customer-item:first-child{
+    margin-left: 0;
+}
+.customer-item:last-child{
+    margin-right: 0;
+}
+.customer-btn{
+    padding: 15px 35px;
+    margin-top: 5.5rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%)
+} 

@@ -1,0 +1,75 @@
+.maan-woman-fashion-area{
+    display: block;
+    overflow: hidden;
+    padding-bottom: 90px;
+}
+.woman-fashion-item{ 
+    position: relative;
+}
+.woman-fashion-wrap{
+    display: grid;
+    gap: 25px; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-flow: dense;
+}
+.woman-fashion-img{
+    display: block; 
+    height: 200px;
+    width: 100%;
+}
+.woman-fashion-offer{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    text-align: right;
+    .woman-fashion-off{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 35px;  
+        text-transform: uppercase; 
+        color: #FF2525;
+    }
+    .woman-fashion-pragraph{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 23px;  
+        color: #0C1928;
+        padding-bottom: 9px;
+    }
+    .woman-fashion-btn{
+        display: inline-block;
+        font-family: 'Jost'; 
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        text-transform: uppercase; 
+        color: #FFFFFF;
+        padding: 6px 9px;
+        background: #FFB23E;
+        border-radius: 6px; 
+        transition: 0.3s;
+        position: relative;
+        right: 0;
+        left: auto;
+        &:hover{
+            background:#FF2525; 
+        }
+    }
+}
+.second-woman-item{  
+    .second-woman-offer{
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+    }
+}
+.thard-woman-item{
+    .thard-woman-offer{ 
+        right: 50%;
+        text-align: left;
+    }
+}

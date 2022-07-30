@@ -1,0 +1,45 @@
+
+.breadcrumb-area{
+    background: rgba(255, 178, 62, 0.15);
+}
+ 
+.maan-breadcrumb-area{
+    display: block;
+    overflow: hidden;
+    background: rgba(255, 178, 62, 0.15); 
+}
+.breadcrumb_nav{ 
+    font-weight: 600;
+    font-size: 16px;   
+    .breadcrumb_order{
+        padding: 10px 0;
+        margin-bottom: 0;
+        .breadcrumb-item{
+            .breadcrumb_link{
+                font-family: 'Now'; 
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px; 
+                text-transform: capitalize; 
+                color: #0C1928; 
+            }
+        }
+        .breadcrumb-focused{
+            font-family: 'Now'; 
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;   
+            color: #0C1928;
+            text-transform: capitalize;
+            
+        }
+    }
+}
+.breadcrumb-item::before { 
+    padding-right: 8px; 
+    font-size: 16px;
+}
+.breadcrumb-item+.breadcrumb-item::before { 
+    color: #0C1928;
+    font-weight: 400; 
+}

@@ -1,0 +1,26 @@
+.maan-valentines-area{
+    display: block;
+    overflow: hidden; 
+}
+.valentines-item{
+    padding: 83px 0;
+    .valentines-offer{
+        font-family: 'Jost'; 
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 36px; 
+        color: #0C1928;
+    }
+    .valentines-img{
+        display: block;
+        height: 91px;
+        max-width: 456px;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+    .valentines-btn{
+        padding: 13px 38px;
+        border-radius: 1px;
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,37 @@
+.maan-facilities-area{
+    display: block;
+    overflow: hidden;
+    padding: 90px 0;
+}
+.facilities-item{
+    display: flex;
+    align-items: center;
+}
+.facilities-img{
+    display: block;
+    height: 60px;
+    width: 60px;
+}
+.facilities-text{
+    padding-left: 25px;
+    .free-hipping{
+        font-family: 'Jost'; 
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px; 
+        color: #0C1928;
+        padding-bottom: 4px;
+    }
+    .facilities-paragraph{
+        max-width: 252px;
+    }
+}
+.facilities-shipping{
+padding-left: 80px;
+}
+.facilities-return{
+    padding-left: 39px;
+}
+.facilities-support{
+    padding-left: 10px;
+}

@@ -1,0 +1,190 @@
+.contact-deal-area{
+    display: block;
+    overflow: hidden; 
+}
+.deal-title-wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.countdown-area{
+    display: flex;
+    padding: 15px 30px;
+    background: #FF1B1B;
+    .countdown-paragraph{
+        font-family: 'Jost'; 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px; 
+        color: #FFFFFF;
+        margin-right: 20px;
+    }
+    .countdown{
+        display: flex;
+        .countdown-items{
+            font-family: 'Jost'; 
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px; 
+            color: #FFFFFF;
+            width: 28px; 
+        } 
+        .deal-one{
+            position: relative;
+            &::before{
+                content: ":";
+                position: absolute;
+                right: 3px;
+                bottom: 1px;
+            }
+        } 
+        .deal-tow{
+            position: relative;
+            &::before{
+                content: ":";
+                position: absolute;
+                right: 3px;
+                bottom: 1px;
+            }
+        } 
+    }
+}
+.deal-bottom-border{
+    border-bottom: 1px solid rgba(12, 25, 40, 0.1);
+    padding-bottom: 93px;
+}
+.deal-wraper{
+    display: grid;
+    gap: 25px; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-flow: dense;
+    margin-top: 54px; 
+}
+.deal-item{   
+    .deal-card{
+        background: none !important;
+    }
+}
+
+.deal-img-item{
+    position: relative;   
+    box-shadow: 1px 1px 1px rgba(214, 205, 205, 0.1); 
+    overflow: hidden;
+    .deal-off{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px; 
+        color: #FF1B1B;
+        display: inline-block;
+        padding: 3px 10px;
+        background: rgba(255, 27, 27, 0.1);
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 1;
+    }
+    .deal-img{
+        display: block;
+        height: 350px;
+        width: 100%;
+        margin: 0 auto; 
+        transition: 0.5s;
+        overflow: hidden;
+    }
+    &:hover{
+        .deal-img{
+            transform: scale(1.1);
+        }
+        
+    }
+} 
+
+.deal-card-body{ 
+    padding: 24px 0 0; 
+    .deal-item-link{
+        font-family: 'Jost'; 
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px; 
+        color: #0C1928;
+        transition: .3s;
+        text-transform: capitalize;
+        &:hover{
+            color: #FF1B1B;
+        }
+    }
+    .card-text{
+        font-family: 'Jost'; 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 23px; 
+        color: rgba(12, 25, 40, 0.5);
+        margin-bottom: 10px;
+        margin-top: 7px;
+        text-transform: capitalize;
+        .maan-themes-btns{
+            font-weight: 400; 
+            color: #0C1928; 
+            transition: .3s;
+            &:hover{
+                color: #FF1B1B;
+            }
+        } 
+    }
+    
+}
+.deal-card-body-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .deal-dollor{
+        font-family: 'Jost'; 
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px; 
+        color: #0C1928;
+        margin-right: 7px;
+        display: inline;
+        .deal-dollor-clasik{ 
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px; 
+            color: rgba(12, 25, 40, 0.3); 
+            display: inline; 
+            position: relative;
+            padding-left: 5px;
+            &::after{
+                content: " ";
+                position: absolute;
+                left: 6px;
+                top:11px;
+                height: 1px;
+                width: 88%;
+                background: #0C1928;
+            }
+        }
+    }
+}
+.deal-count-star{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px; 
+    color: rgba(12, 25, 40, 0.3); 
+    display: inline; 
+    position: relative;
+    .deal-img-star{
+        display:inline-block;
+        height: 16px;
+        width: 16px;
+        margin-right: 10px;
+    }
+}
+
+.maan-valentines-area {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 

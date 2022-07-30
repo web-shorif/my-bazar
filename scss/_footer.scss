@@ -1,0 +1,371 @@
+.maan-fast-footer-area{
+    display: block;
+    position: relative;
+    background: url(../img/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    margin-top: 100px;
+}
+.fast-footer-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff; 
+    box-shadow: 5px -10px 50px rgba(12, 25, 40, 0.06);
+    border-radius: 20px;
+    padding: 40px;
+    width: 920px;
+    max-width: 100%; 
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    .fast-footer-user{
+        font-family: 'Inter'; 
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 48px; 
+        color: #0C1928;
+        text-transform: capitalize;
+        max-width: 480px;
+    }
+    .footer-btn{
+        padding: 15px 28px;
+        line-height: 19px;
+    }
+}
+.footer-items{
+    display: flex; 
+    padding: 150px 0 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+// footer-item-one
+.footer-item-one{
+   
+    width: 550px;
+    max-width: 100%;
+    display: block;  
+}
+.fast-footer-logo{
+    margin-bottom: 21px;
+    img{
+        max-width: 140px;
+    }
+}
+.footer-fast-paragraph{
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #FFFFFF; 
+    opacity: 0.9;
+    max-width:432px;
+    padding: 20px 0;
+}
+.footer-mail{
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #FFFFFF; 
+    opacity: 0.9;
+    display: block;
+    margin-bottom: 25px;  
+    &:hover{
+        color: #FFFFFF;
+    }
+}
+.footer-message{
+    margin-right: 10px; 
+}
+.footer-social{
+    li{
+        display: inline-block;
+        .footer-menu-item{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px; 
+            color: #FFFFFF;
+            margin-right: 3rem;
+            transition: .3s;
+            &:hover{
+                color: #FF8C00;
+            }
+        }
+    }
+}
+// footer-item-second
+.footer-item-second{
+    width: 280px;
+    max-width: 100%;
+    display: block;
+    .footer-item-second-heading{
+        font-family: 'Inter'; 
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 110%; 
+        text-transform: uppercase; 
+        color: #FFFFFF;
+    }
+    .footer-listing{
+        margin-top: 18px;
+        li{
+            .footer-menu-anout{
+                font-family: 'Inter'; 
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 40px; 
+                color: #FFFFFF; 
+                opacity: 0.9;
+                transition: 0.5s;
+                &:hover{
+                    color: #FF8C00;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+// .footer-item-thard
+.footer-item-thard{
+    width: 270px;
+    max-width: 100%;
+    display: block;
+}
+.footer-item-fourth{
+    display: block;
+    width: 240px;
+    max-width: 100%;
+}
+.foter-four-paragraph{
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #FFFFFF; 
+    opacity: 0.9;
+    padding: 11px 0 26px;
+}
+.footer-for-mail{
+    position: relative;
+    .input-controls{
+        padding: 12px 45px 12px 20px;
+        background: none; 
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        max-width: 100%;
+        display: block;
+        width: 270px;
+        font-family: 'Inter'; 
+        font-weight: 400;
+        font-size: 14px; 
+        color: rgba(255, 255, 255, 0.3);
+        outline: none;
+    }
+    .icon-btn{
+        position: absolute;
+        right: 5px;
+        top: 6px;
+        outline: none;
+        border: none;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #ffb628 0%, #f6851f 100%);
+        border-radius: 8px;
+        padding: 5px 10px 6px;
+        font-size: 16px;
+    }
+    .input-click-btn{
+        font-family: 'Jost'; 
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px; 
+        color: #FFFFFF; 
+        opacity: 0.5;
+        display: block;
+        margin-top: 6px;
+        transition: 0.5s;
+        text-transform: capitalize;
+        &:hover{
+             color: #F73425;
+             opacity: 1;
+        }
+    }
+}
+.footer-bottom-area{
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 2rem 0;
+    .maantheme{
+        color: rgba(255, 255, 255, 0.7);
+        transition: 0.5s;
+        &:hover{
+             color: #F73425;
+        }
+    }
+}
+
+// maan-second-footer-area
+.maan-second-footer-area{
+    display: block;
+    overflow: hidden; 
+    background: rgba(12, 25, 40, 0.2);
+}
+.footer-wraper{
+    padding: 80px 0;
+}
+.second-footer-logo{
+    .second-footer-logo-img{
+        display: block;
+        max-width: 180px;
+        height: 40px;
+    }
+    margin-bottom: 21px;
+}
+.footer-reed-more{
+    max-width: 355px;
+    .second-paragraph-link{ 
+        color: #0C1928; 
+        transition: 0.3s; 
+        &:hover{
+            color:#FF2525; 
+            text-decoration: underline !important;
+        }
+    }
+}
+.second-footer-paragraph-one{
+    display: block;
+    max-width: 355px;
+    margin-bottom: 15px;
+} 
+.footre-second-call{
+    display: block;
+    transition: 0.3s;
+    &:hover{
+        color: #FF2525;
+    }
+}
+.footer-second-email{
+    display: block;
+    transition: 0.3s;
+    &:hover{
+        color: #FF2525;
+    }
+}
+
+.footer-item{
+    .footer-item-heading{
+        font-family: 'Jost'; 
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px; 
+        text-transform: uppercase; 
+        color: #0C1928;
+        padding-bottom: 11px;
+    }
+    .footer-listing{
+        .mani-footer-link{
+            font-family: 'Jost'; 
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 35px; 
+            color: #0C1928; 
+            opacity: 0.7;
+            transition: 0.3s;
+            &:hover{
+                color: #FF2525;
+                opacity: 1;
+            }
+        }
+    }
+}
+.main-footer-item-two{
+    padding-left: 10px;
+}
+.main-footer-item-three{
+    padding-left: 65px;
+}
+.main-footer-item-four{
+    padding-left: 78px;
+}
+.footer-last-paragraph{
+    display: block;
+    margin-bottom: 18px;
+    max-width: 336px;
+}
+.footer-last-mail{
+    position: relative;
+    .input-mail-control{
+        border: none;
+        outline: none;
+        background: #0C1928;
+        padding: 12px 110px 12px 20px;
+        color: rgba(255, 255, 255, 0.7);
+        font-family: 'Jost'; 
+        font-weight: 400;
+        font-size: 16px; 
+        line-height: 26px;
+        width: 100%;
+    }
+    .footer-icon-btn{
+        border: none;
+        outline: none;
+        font-family: 'Jost'; 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px; 
+        color: #000000;
+        padding: 7px 16px;
+        background-color: #fff;
+        position: absolute;
+        right: 5px;
+        top: 5px;  
+    }
+}
+.main-click-btn{
+    font-family: 'Jost'; 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px; 
+    color: #000000; 
+    opacity: 0.3;
+    display: block;
+    margin-top: 7px; 
+    transition: 0.3s;
+    &:hover{
+        color: #FF2525;
+        opacity: 1;
+    }
+}
+
+// main-footer-bottmo-area
+.main-footer-bottmo-area{
+    .main-foote-bottom-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        .footer-maantheme{
+            text-decoration: none;
+        }
+        .main-footer-social{
+            .main-footer-link{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 23px; 
+                color: #0C1928;
+                font-family: jost;
+                transition: 0.3s;
+                &:hover{
+                    color: #FFB23E;
+                }
+            }
+        }
+    }
+}
+
+
